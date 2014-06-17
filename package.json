@@ -1,0 +1,32 @@
+{
+  "name": "aloudflare",
+  "version": "0.0.0",
+  "description": "Service for setting equivalent A records for a CNAME on CloudFlare",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stuartpb/aloudflare.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "cname",
+    "apex"
+  ],
+  "author": "Stuart P. Bentley <stuart@testtrack4.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stuartpb/aloudflare/issues"
+  },
+  "dependencies": {
+    "queue-async": "~1.0.7",
+    "envigor": "~0.5.1",
+    "redis": "~0.10.0",
+    "jade": "~1.1.5",
+    "express": "~3.4.8",
+    "aname-poll": "~0.1.0"
+  }
+}
